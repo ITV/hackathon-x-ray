@@ -2,7 +2,7 @@
   "events": [
     {
       "start": 0,
-      "end": 15.123,
+      "end": 16.5,
       "event": [
         {
           "type": "trivia",
@@ -11,19 +11,67 @@
       ]
     },
 		{
-      "start": 15.123,
-      "end": 22.455,
+      "start": 16.5,
+      "end": 25.5,
       "event": [
         {
           "type": "actor",
           "name": "Patrick Stewart",
-          "info": "Jean-Luc Picard",
+          "info": "Capt. Jean-Luc Picard",
 					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
         },
 				{
           "type": "actor",
+          "name": "LeVar Burton",
+          "info": "Lt. Geordi La Forge",
+					"image": "https://upload.wikimedia.org/wikipedia/en/0/04/GeordiLaForge.jpg"
+        }
+      ]
+    },
+    {
+      "start": 25.5,
+      "end": 37.5,
+      "event": [
+        {
+          "type": "actor",
           "name": "Patrick Stewart",
-          "info": "Jean-Luc Picard",
+          "info": "Cpt. Jean-Luc Picard",
+					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
+        },
+        {
+          "type": "actor",
+          "name": "Brent Spinner",
+          "info": "Lt. Cmdr. Data",
+					"image": "https://upload.wikimedia.org/wikipedia/en/0/09/DataTNG.jpg"
+        },
+				{
+          "type": "actor",
+          "name": "LeVar Burton",
+          "info": "Lt. Geordi La Forge",
+					"image": "https://upload.wikimedia.org/wikipedia/en/0/04/GeordiLaForge.jpg"
+        }
+      ]
+    },
+    {
+      "start": 37.5,
+      "end": 39.5,
+      "event": [
+				{
+          "type": "actor",
+          "name": "LeVar Burton",
+          "info": "Lt. Geordi La Forge",
+					"image": "https://upload.wikimedia.org/wikipedia/en/0/04/GeordiLaForge.jpg"
+        },
+        {
+          "type": "actor",
+          "name": "Marina Sirtis",
+          "info": "Counselor Deanna Troi",
+					"image": "https://upload.wikimedia.org/wikipedia/en/d/df/DeannaTroi.jpg"
+        },
+        {
+          "type": "actor",
+          "name": "Patrick Stewart",
+          "info": "Capt. Jean-Luc Picard",
 					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
         }
       ]

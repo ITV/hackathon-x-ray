@@ -23,6 +23,13 @@
         column-gap: 15px;
         grid-template-columns: 120px 1fr;
 
+        img {
+            height: 120px;
+            width: 100%;
+            object-fit: cover;
+            object-position: top;
+        }
+
         &--trivia {
             grid-template-columns: 1fr;
             max-width: 500px;
@@ -30,6 +37,7 @@
     }
 
     &__content {
-        font-size: 1.3rem;
+        font-weight: 400;
+        font-size: 1.2rem;
     }
 }
