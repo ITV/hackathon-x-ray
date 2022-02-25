@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./Xray.scss";
+import { getEventTypeTitle } from './utils';
 
 export default function Xray({ show, eventData }) {
   if (!eventData.length) {
@@ -42,9 +43,10 @@ export default function Xray({ show, eventData }) {
               >
                 {event.image && <img src={event.image} alt={event.info} />}
                 <div className="xray__content">
-                  {/* Type: {event.type} */}
+                  <h3>{getEventTypeTitle(event.type)}</h3>
                   {event.name && <h2>{event.name}</h2>}
-                  {event.info}
+                  <p>{event.info}</p>
+                  {event.link && <p className="xray__link"><a href={event.link} role="button" target="_blank">Open</a></p>}
                 </div>
               </motion.div>
             );

@@ -7,6 +7,12 @@
         {
           "type": "trivia",
           "info": "These opening credits were created using cutting edge technology at the time"
+        },
+				{
+          "type": "music",
+					"name": "Main Title",
+          "info": "Jerry Goldsmith, Ron Jones",
+					"link": "https://open.spotify.com/album/7w8dO9iZy8B0g98sXQoIqx?highlight=spotify:track:6C6UppMmnhp4DY4oyG823S"
         }
       ]
     },
@@ -73,6 +79,19 @@
           "name": "Patrick Stewart",
           "info": "Capt. Jean-Luc Picard",
 					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
+        }
+      ]
+    },
+		{
+      "start": 39.5,
+      "end": 60,
+      "event": [
+				{
+          "type": "product",
+          "name": "U.S.S. Enterprise",
+          "info": "Playmobil",
+					"link": "https://www.playmobil.co.uk/star-trek---u.s.s.-enterprise-ncc-1701/70548.html",
+					"image": "https://upload.wikimedia.org/wikipedia/en/5/58/Enterprise_Forward.jpg"
         }
       ]
     }
