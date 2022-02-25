@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import "./Xray.scss";
+import Button from "../button/Button";
 import { getEventTypeTitle } from './utils';
 
 export default function Xray({ show, eventData }) {
@@ -46,7 +47,7 @@ export default function Xray({ show, eventData }) {
                   <h3>{getEventTypeTitle(event.type)}</h3>
                   {event.name && <h2>{event.name}</h2>}
                   <p>{event.info}</p>
-                  {event.link && <p className="xray__link"><a href={event.link} role="button" target="_blank">Open</a></p>}
+                  {event.link && <p className="xray__link"><Button type="a" href={event.link} role="button" target="_blank">Open</Button></p>}
                 </div>
               </motion.div>
             );

@@ -1,11 +1,13 @@
 import { useState } from "react";
 import showImage from "../../assets/show-img.jpeg";
 import Player from "../player/Player";
+import Button from "../button/Button";
 import { motion } from "framer-motion";
 import "./Show.scss";
 
 export default function Show() {
   const [showPlayer, setShowPlayer] = useState(false);
+  const MotionButton = motion(Button, { forwardMotionProps: true })
   return (
     <>
       <motion.div className="show" animate={{ opacity: showPlayer ? 0 : 1 }}>
@@ -30,14 +32,15 @@ export default function Show() {
             by a matriarchal government in the hopes of locating
             <br />a missing freighter crew.
           </motion.p>
-          <motion.button
+          <MotionButton
+            type="button"
             initial={{ x: -100, opacity: 0 }}
             transition={{ delay: 3, duration: 0.7, ease: "easeOut" }}
             animate={{ x: 0, opacity: 1 }}
             onClick={() => setShowPlayer(!showPlayer)}
           >
             Play Episode
-          </motion.button>
+          </MotionButton>
         </div>
         <div className="show__grad--left"></div>
         <div className="show__grad"></div>

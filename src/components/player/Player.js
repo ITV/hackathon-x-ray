@@ -48,7 +48,7 @@ export default function Player({ show }) {
     <>
       {show && (
         <ShakaPlayer
-          // autoPlay
+          autoPlay
           ref={ref}
           src="https://storage.googleapis.com/shaka-demo-assets/angel-one/dash.mpd"
         />

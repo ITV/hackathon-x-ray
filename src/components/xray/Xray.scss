@@ -35,13 +35,16 @@
             object-position: top;
         }
 
+        &--trivia, 
+        &--music, 
         &--product {
             grid-template-columns: 1fr;
-        }
-
-        &--trivia, &--music {
-            grid-template-columns: 1fr;
             max-width: 500px;
+            min-width: 300px;
+
+            img {
+                margin-bottom: 1rem;
+            }
         }
     }
 
