@@ -1,0 +1,30 @@
+{
+  "events": [
+    {
+      "start": 0,
+      "end": 15.123,
+      "event": [
+        {
+          "type": "trivia",
+          "info": "These opening credits were created using cutting edge technology at the time"
+        }
+      ]
+    },
+		{
+      "start": 15.123,
+      "end": 22.455,
+      "event": [
+        {
+          "type": "actor",
+          "info": "Jean-Luc Picard, Patrick Stewart",
+					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
+        },
+				{
+          "type": "actor",
+          "info": "Jean-Luc Picard, Patrick Stewart",
+					"image": "https://upload.wikimedia.org/wikipedia/en/thumb/8/8e/Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg/220px-Patrick_Steward_as_Jean-Luc_Picard_in_1996%27s_Star_Trek_First_Contact.jpg"
+        }
+      ]
+    }
+  ]
+}
