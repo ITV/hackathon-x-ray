@@ -1,0 +1,35 @@
+.xray {
+    position: fixed;
+    pointer-events: none;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 2;    
+
+    &__items {
+        margin-top: 60px;
+        display: grid;
+        grid-template-columns: minmax(15px, 60px) auto 1fr;
+        grid-template-rows: auto;
+        row-gap: 30px;
+    }
+
+    &__item {
+        grid-column: 2;
+        background: rgba(white, 0.7);
+        padding: 1rem;
+        display: grid;
+        column-gap: 15px;
+        grid-template-columns: 120px 1fr;
+
+        &--trivia {
+            grid-template-columns: 1fr;
+            max-width: 500px;
+        }
+    }
+
+    &__content {
+        font-size: 1.3rem;
+    }
+}
